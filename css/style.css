@@ -1,40 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+/* Reset CSS */
+ html  {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    /* Centralizar textos */
-    text-align: center;
-    /*  Imagem de fundo */
-    background-image: url(https://tinyurl.com/3hwvbf7y);
-    /* Não repetir a imagem de fundo */
-    background-repeat: no-repeat;
-    /* alinhar o background */
-    background-position: center ;
-    /* tamanho do body */
-    height: 100vh;
-    /* tamanaho da imagem */
-    background-size: 200px;
-    /* Fixar a imagem de fundo */
-    background-attachment: fixed;
-    /* Cor de fundo da página */
-    background-color: black;
+    padding: 0;
+    margin: 0;
 }
 
-/* Personalizar o título */
-h1 {
-    color: #ff0000;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
+html, body{
+    height: 100%;
+}  
+
+
+#menu {
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
 }
 
-/* Personalizar os subtítulos */
-#green {
-    color: #00FF00;
+#menu ul {
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+    float: left;
+    width: 100%;
+    
 }
 
-#blue {
-    color: #0000FF;
-    font-weight: bold;
+#menu ul li {
+    display: inline;
+    padding-left: 5vh;
+   
 }
 
-.colors{
-    color: darkblue;
-    font-size: 24px;
+#menu ul li a {
+    padding: 2px 10 px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px 6px solid #fbceb1;
+    font-family: 'Staatliches', cursive;
+
+    
 }
+
+#menu ul li a:hover {
+    
+    color: #455A64;
+    
+}
+
+
+#imagem{
+    position: absolute;
+    top: 5px;
+    left: 265px;
+    float: left;
+    width: 20px;
+    height: 10px;
+}
+
+#cabecalho {
+    width: 100vw;
+    height: 15vh;
+    background-color: #00ACC1;
+    border-bottom: solid 4px grey;
+}
+
+#paragrafo {
+    position: absolute;
+    padding: 0;
+    margin-bottom: 10px;
+    
+}
+
+#paragrafo h1{
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+#textoprin{
+    text-align: justify;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+#travel img{
+    position: absolute;
+    left: 60px;
+    width: 25vw;
+    height: 350px;
+    padding: 0;
+   
+}
+
+#travel2 img{
+    position: absolute;
+    left: 470px;
+    width: 30vw;
+    height: 350px;
+    padding: 0;
+   
+}
+#travel3 img{
+    position: absolute;
+    right: 60px;
+    width: 25vw;
+    height: 350px;
+    padding: 0;
+    
+}
+
+#travelbase img{
+    position: absolute;
+    position: inherit;
+    width: 100vw;
+    height: 350px;
+    padding: 0;
+    
+}
+
+#conteudo {
+    width: 100vw;
+    height: 75vh;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+ #rodape{
+    width: 100vw;
+    height: 10vh;
+    background-color: #00ACC1;
+    border-top: solid 4px grey;
+    position: absolute;
+    bottom: -40%;
+      
+} 
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #00ACC1;
+    border-top: solid 4px grey;
+    position: absolute;
+    bottom: 0
+    ;
+}
+
+
+
+.icons{
+    width: 90px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    left:25px;
+
+}
+
